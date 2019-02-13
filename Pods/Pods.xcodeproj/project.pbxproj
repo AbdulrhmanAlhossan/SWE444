@@ -1,0 +1,1356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013C2874FE5C243DB2A8A06FBCD57137 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74F60573DD9D3F7C3D868F7D29B016 /* Utils.swift */; };
+		041EF79EC44290783D1939D8F814E333 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4FBD25B1EA6A9A40C27ED12EED5560 /* UIButton+Chameleon.m */; };
+		07AC00AF40D6B1F2C64285B8F342FFDD /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146DDCA38244342D03240182D7E845D /* UILabel+Chameleon.m */; };
+		0A56B2EF84F7497C3076077CB099C8A0 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1FF7E27FEFA2334A5038531B91AC3 /* UIView+ChameleonPrivate.m */; };
+		0B57B90174A692C5D36299A9D15DE8CE /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B0830FE064E7A83E2E452C148BD40D5F /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E7E3D8FC7B96142F6E5A3CCA3BD024F /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF049DE78117B7F9B18E386B5A241C16 /* LTCharacterDiffResult.swift */; };
+		10BC6BB19B0D5A1C01164C15C55C88AB /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D0AE4C21C0F6AEB724006B29F2DB30 /* UIViewController+Chameleon.m */; };
+		1159AA04CDEEFA361CB0CDB7F9404B40 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A8C3CCD749054D8F3EEAEF84F4971 /* LTCharacterLimbo.swift */; };
+		18D747FE852899282E9C1A845C1B8E46 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01FD7442871D6173F618AA1B902E92 /* LTMorphingLabel+Pixelate.swift */; };
+		190EC33340F889251B8052949428B2B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		19ECA9ED1F833936A80C0FA4E4A9650B /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766618740B4B3F0046C5EFD41A8F0275 /* LTEasing.swift */; };
+		21424A939979432F763C8DA206F0C016 /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C5A40F36340941ED8AFF3010850102 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2186BCD16318434E8549A78B8952B0F7 /* Pods-444QuizApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 944E93C5A4DBF0166AC821F569E87428 /* Pods-444QuizApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AB15077FBC851EC1DF7AC6E9824A3A9 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE2DDC6E398DE711E2346E5A49141B /* SwiftyButton-dummy.m */; };
+		2E802CF09078B4E1458C378E6B1846DF /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E624A631B99224D9DEE04B16FB49A2B7 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A4F13BD6A209FAE9BD5C8F0FB51679F /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0C6FC1CB04BDE1E4463C411C214F07 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A62080902E4C4F27C2C54E5B9D3C544 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50567D37E7D868AE4EE8D851EC2C71E /* CustomPressableButton.swift */; };
+		49F9849EC36E1232AF35AAD38E269350 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D211D0F658DA06B0D9873C4CAAD403 /* LTMorphingLabel.swift */; };
+		4DC28C2183C08F4CA3C2B2C6402C5F48 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA83B7FC90E1A302B4163F008B0682 /* LTMorphingLabel+Evaporate.swift */; };
+		4F8E079AD3F9C7E6593C41C84689902B /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A34823A76829D628E5B249CE913125 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		540A944DDA3B34BCF3C3E10A71D89CC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		58AF999211466179E93727B4D7638AB7 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 696DA04D6BD8BFDE84B974217BC5C008 /* UIColor+Chameleon.m */; };
+		58DAE9112B3F3F628E7DEECE5FE3FCE8 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5718B88C8748D0ADCF9A73AA380D97 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58DD028495EC05E3DF961439A186F2EB /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E5E2EA8C9CA05F8543DEFF75F3E12 /* ChameleonFramework-dummy.m */; };
+		5A2B74050223F32601497DF58B590F3C /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19BA41FA5C59592859E6A57E994DD92 /* LTMorphingLabel+Burn.swift */; };
+		5A6927CBE6897F68AB02AE5F748029C3 /* CountdownLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5291D9C45F2F4D00AA27643B33B3933 /* CountdownLabel-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64048DF6C09B751FEBAFA704F20E6B57 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E80A79C02BE27A5399EA7AE77A0B21 /* UIAppearance+Swift.m */; };
+		6719186B23B3B44DF54168129D101C8A /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856ACA904C6BA22D27C2A4F3E5F38AA /* LTMorphingLabel+Evaporate.swift */; };
+		6C834F0D06EE4D19B04C07F9A991F4F9 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55EEEC656E688175176A54522E54074 /* ChameleonShorthand.swift */; };
+		6D1CFE294484FF1674DE5DEA0D758383 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855EE2E65A235CEDDA855ACA471352A /* UIImage+ChameleonPrivate.m */; };
+		6D658ABFEE4DF7361AA74193A4CFE28A /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 112C8A28C13CC2F866416746E2F9D5F0 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		700287663CEC5B2F9A69E774A28AABCF /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECCC594B2E2C72A671BC6410648D3A5 /* LTMorphingLabel+Fall.swift */; };
+		78323D3F3AA1ACDEE39B0D024DD2BEED /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B603320FF8C4F3FFADFDF8868932E /* LTEmitterView.swift */; };
+		78E362B24A93B45ECCFC8989BC723631 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70CFADBD3BC03512714EF05DD29AFB /* LTMorphingLabel+Anvil.swift */; };
+		873F0BF3FB3FE8FB46766383478345B9 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61896903D2EF8028B2DF6557567419D1 /* LTCharacterLimbo.swift */; };
+		8BBBD65B2E0B3B41AFBC938214A8FD06 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A23903ACBD66B68FA1154DFA52F08D /* LTMorphingLabel-dummy.m */; };
+		8C0A80C27639905B853DD7D432448353 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6DA578B405E5EEF74C0E1F15CA388C /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FA85E6F30CAE7BB8F79FB59DBD2F8BB /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE83852C9297D37987DBED4F2D25D7E /* Chameleon_.m */; };
+		9250EDECCEDFCB5C4E873DE41B180FE2 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D751CC4C395CF4E7F736A975F47A82 /* LTEmitterView.swift */; };
+		97704376384B2D5AD3BF82B090AD919F /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0F6B5CB8BA5A87D9B17F3B1341055D /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3E08039829B1E8886510854C2A7A17 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05676A20A8B3A3C92963DA23C3169E02 /* LTMorphingEffect.swift */; };
+		9DEE0DFF4960636CC9051AF06DCE5D9D /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FAA391ECD73E180DB81037A2DCD6C /* NSArray+Chameleon.m */; };
+		A024C5AC6C4111750167979828AA1C6B /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F42C9BD8AC5D9C85F71CBE7D4ADF3 /* LTEasing.swift */; };
+		A395A2AB1C79FC0930AA3142F16B71E7 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 594B07A00F6FFA9E04E3AAB790C353B9 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4C2753C6C82EB8C41D957E158C60EF2 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9852FEB9C1D1D9A5650203961EA02B /* LTStringDiffResult.swift */; };
+		ACA340FF0A0261841E33BA6AA247D4F7 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 125E5A854250E1DD715969996F6EFEC4 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADBCF214FC42B7B6535B3FA4CC1A7406 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2D6C0EFB13BA9D41B9D814358818FD /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFDA93B6876D67A80360AD5EAA68AE22 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4CA764A40B15625F44B784EE002CC /* UIColor+ChameleonPrivate.m */; };
+		B065C000CB509B4DF9BF10F2364EBD14 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = EF79F41D636E98086C4A6B685D274FE7 /* Chameleon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0F6EC26EE573D408649C71970C2176A /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 0669089321CB1C61ADE1227467DC42E0 /* Chameleon_.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1334F3064AF8D401E4EFBC69208BB00 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EA49B5CC1B6311F15B17603342E05283 /* ChameleonConstants.m */; };
+		B53FBA7091C0815C67C52490429794FE /* CountdownLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E913EFB795F28E55477715455F60E46 /* CountdownLabel-dummy.m */; };
+		B8D46C21133B1B962365C3AB3D1DC093 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04F37B7EE1181E1B652220C6E237 /* LTMorphingLabel+Burn.swift */; };
+		BB5159E2A9EC7B1920926CC691623BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		C0660EC46E1DD02883C278C45DA81976 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F803A3F714D505120112503EF528F /* LTMorphingEffect.swift */; };
+		C1FFED4CEA005693AFF3A9453A572C29 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88451A9375E60F1559E7E5E51292E9 /* LTStringDiffResult.swift */; };
+		C641EBC641928D479B0C27FF87CC6AED /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FF156FD5BFB5856887D070F7B76CC /* LTMorphingLabel+Sparkle.swift */; };
+		C9FE745F43C9FC1B82E7EED5B9C25F42 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 38789261C014697C39D1A82E78B82C44 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC8A86E5F5EB8456C9C016A4F2AD1078 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CB048ED8FF7B49E33188FAF1C751F0 /* PressableButton.swift */; };
+		CF6BA492AA018BA38F319CFE0849D387 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5100BC5E1EA0B482BA8DA84F9BA8CD23 /* LTMorphingLabel+Sparkle.swift */; };
+		D8475364D9AE7BA112535A2C85C85CA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		DFA232B14D138E6E7ABBA42CD242A087 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23304514945E6ED1291350E194F15782 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0291936EDE349319F35FCEF5926C5DA /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 613838968E9505B2F579632844EE645F /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E37E320372E17A336805F8F331219C6C /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3688E7DC3DCE6A9B26F2EBC3A15F97B5 /* LTMorphingLabel+Fall.swift */; };
+		E52FDC133C8FB6EE1CF0490C306B7820 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782BBCBC23C3C2AA19B1B0623CEBC47E /* LTMorphingLabel+Pixelate.swift */; };
+		EC90FED733F6332B210782FEE6EDEE92 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011CC930F8A25EF2674AADB9E48EF11 /* LTCharacterDiffResult.swift */; };
+		EF0673D064951F38DCB64B1660742152 /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC358219E0258D377AF3656AD23D0501 /* CountdownLabel.swift */; };
+		F05A41F3D0E6EA8BC6DEAF04B67E058D /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B314BE7820681782056CB0D7387E0 /* LTMorphingLabel+Anvil.swift */; };
+		F24F26C6791C25C00E8D8DDDFE1CEB80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		F264AFD04EED135B368E3967A730A59B /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A224C759FAEE93D19CE80BDD50251F0 /* FlatButton.swift */; };
+		F2756E9B23C50C9F142B2589100CAE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		F2D3B69E8C1CA0F8A1F44585BC40AB4D /* Pods-444QuizApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A160AA941FD7484A605F54EA3B3483FB /* Pods-444QuizApp-dummy.m */; };
+		F34CE4EED89542A7A1F407FF1D4A01B7 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DA9651FF16F46D9B96E6978F8024E2 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5B91238B4FF33883E1D14B8C049A807 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57BA2C103EC06EA4A8C1F839F8A30D /* UINavigationController+Chameleon.m */; };
+		F75B013AD1916A0130B0240ED02CDEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		F85E1566E16D7590AB50477AAA9E58A9 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70696EFB5647C1190B3B0F824BD8B136 /* LTMorphingLabel.swift */; };
+		F8B631B12D53852D408D89C04CFFFEDF /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABD9573231BE7FA7EE211FEA0A73D66 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEB85FE690789042EAE3B98CE06D1080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16FC95DEF836FC54C64BB359BB157C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5373C47765EFF70624332AEE2D9CFF;
+			remoteInfo = SwiftyButton;
+		};
+		23D0AF2136D6C940518E462B8A700480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF432B1F77503A4DF32F4F359D03B60A;
+			remoteInfo = LTMorphingLabel;
+		};
+		401477DBB02DA47F243802EFDC78D33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B2EA148B735078CEF1327B3FC0864E;
+			remoteInfo = ChameleonFramework;
+		};
+		FA9BCA9A5EB9D89F440D476D79A40223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898FD729E5669398CEA99CB5B1913366;
+			remoteInfo = CountdownLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05676A20A8B3A3C92963DA23C3169E02 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = CountdownLabel/LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		0669089321CB1C61ADE1227467DC42E0 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		09522D5586FE00508C1C8AC9764B8BFA /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SwiftyButton.modulemap; path = ../../Headers/Public/SwiftyButton/SwiftyButton.modulemap; sourceTree = "<group>"; };
+		112C8A28C13CC2F866416746E2F9D5F0 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		113F42C9BD8AC5D9C85F71CBE7D4ADF3 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		125E5A854250E1DD715969996F6EFEC4 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		15D211D0F658DA06B0D9873C4CAAD403 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = CountdownLabel/LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		186D723FD5060930AF93D17D9311EA7E /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChameleonFramework.a; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E01FD7442871D6173F618AA1B902E92 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		1F88451A9375E60F1559E7E5E51292E9 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = CountdownLabel/LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
+		2146DDCA38244342D03240182D7E845D /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		23304514945E6ED1291350E194F15782 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		27EE5ABEDD3474EF819BA296A705DF44 /* Pods-444QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-444QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		33911BF365D3BE056EF2A94C90431527 /* libLTMorphingLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLTMorphingLabel.a; path = libLTMorphingLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3688E7DC3DCE6A9B26F2EBC3A15F97B5 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		38789261C014697C39D1A82E78B82C44 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		3878BBAC7A0E5B5CCA53C11690C59277 /* Pods-444QuizApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-444QuizApp.modulemap"; sourceTree = "<group>"; };
+		3C9F04F37B7EE1181E1B652220C6E237 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		3E913EFB795F28E55477715455F60E46 /* CountdownLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountdownLabel-dummy.m"; sourceTree = "<group>"; };
+		401AE7FAF1CF90D6646218BB5828DA5D /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		41DA9651FF16F46D9B96E6978F8024E2 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		477E5E21F80087F299E341A7D3B1F007 /* libCountdownLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCountdownLabel.a; path = libCountdownLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AE840C9AF2D0B824E7688F2718277E /* libPods-444QuizApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-444QuizApp.a"; path = "libPods-444QuizApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD1FF7E27FEFA2334A5038531B91AC3 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		4FC4CA764A40B15625F44B784EE002CC /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		5100BC5E1EA0B482BA8DA84F9BA8CD23 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		51CAC4BDEBE31B37D1A7388CDBAEC753 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		51D0AE4C21C0F6AEB724006B29F2DB30 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		5227031C747532A98682E6A3AE58D34A /* Pods-444QuizApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-444QuizApp-frameworks.sh"; sourceTree = "<group>"; };
+		594B07A00F6FFA9E04E3AAB790C353B9 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		5E72C5451B70F6A6059E13A3241E7612 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		5F57BA2C103EC06EA4A8C1F839F8A30D /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		613838968E9505B2F579632844EE645F /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		613B603320FF8C4F3FFADFDF8868932E /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		61896903D2EF8028B2DF6557567419D1 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		6855EE2E65A235CEDDA855ACA471352A /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		696DA04D6BD8BFDE84B974217BC5C008 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		6A0F6B5CB8BA5A87D9B17F3B1341055D /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ChameleonFramework-umbrella.h"; path = "../../Headers/Public/ChameleonFramework/ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		6A224C759FAEE93D19CE80BDD50251F0 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		6ABD9573231BE7FA7EE211FEA0A73D66 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMorphingLabel-umbrella.h"; path = "../../Headers/Public/LTMorphingLabel/LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		6F4FAA391ECD73E180DB81037A2DCD6C /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		6F8BACDC2AD2ED369362F2B562BB7EAE /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		70696EFB5647C1190B3B0F824BD8B136 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		72ED0C1F179A75C6A5618C4B431072B3 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		766618740B4B3F0046C5EFD41A8F0275 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = CountdownLabel/LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		778F803A3F714D505120112503EF528F /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		782BBCBC23C3C2AA19B1B0623CEBC47E /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		806644311F9E9C51AD2FB6BB2EE0EB51 /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		868A3A5814C466E62014E6F88B709215 /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		87CF6D0AA03409658C85D2C3D206BCF5 /* CountdownLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = CountdownLabel.modulemap; path = ../../Headers/Public/CountdownLabel/CountdownLabel.modulemap; sourceTree = "<group>"; };
+		8856ACA904C6BA22D27C2A4F3E5F38AA /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		8AE83852C9297D37987DBED4F2D25D7E /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		92A23903ACBD66B68FA1154DFA52F08D /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		93118D5388E64F2055A1A2F6ADEA67AF /* Pods-444QuizApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-444QuizApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944E93C5A4DBF0166AC821F569E87428 /* Pods-444QuizApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-444QuizApp-umbrella.h"; sourceTree = "<group>"; };
+		A053FB76502927AA2704B44B8CF3000B /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = LTMorphingLabel.modulemap; path = ../../Headers/Public/LTMorphingLabel/LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		A160AA941FD7484A605F54EA3B3483FB /* Pods-444QuizApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-444QuizApp-dummy.m"; sourceTree = "<group>"; };
+		A2C5A40F36340941ED8AFF3010850102 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		A855297E6529B3CAB1389B1E69180522 /* Pods-444QuizApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-444QuizApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA9FF156FD5BFB5856887D070F7B76CC /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		AF1F7D787CDAF7B25398FB1AB27541B6 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
+		AF74F60573DD9D3F7C3D868F7D29B016 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		B0830FE064E7A83E2E452C148BD40D5F /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		B09B314BE7820681782056CB0D7387E0 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		B5F47ECBDF7A4B26196B8A2F512EBF52 /* CountdownLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountdownLabel.xcconfig; sourceTree = "<group>"; };
+		B63A8C3CCD749054D8F3EEAEF84F4971 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = CountdownLabel/LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BBD116F4B44BB365F715DBF1C1DDCC30 /* Pods-444QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-444QuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		BC358219E0258D377AF3656AD23D0501 /* CountdownLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownLabel.swift; path = CountdownLabel/CountdownLabel.swift; sourceTree = "<group>"; };
+		BCA4BF1316523C00E205DAB756E55045 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		BCC94BB346094C8FCFEAC82134F675B2 /* libSwiftyButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftyButton.a; path = libSwiftyButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFE2DDC6E398DE711E2346E5A49141B /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		BDFA995F44647B02C1FAFE12B1A8B873 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		C011CC930F8A25EF2674AADB9E48EF11 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		C5442926B54E5F4F4EE00721A90BD0C5 /* Pods-444QuizApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-444QuizApp-resources.sh"; sourceTree = "<group>"; };
+		C55EEEC656E688175176A54522E54074 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		C5CB048ED8FF7B49E33188FAF1C751F0 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		CC500FD1984AB2177EF6C00362614AA8 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = ChameleonFramework.modulemap; path = ../../Headers/Public/ChameleonFramework/ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		CE0C6FC1CB04BDE1E4463C411C214F07 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		CF049DE78117B7F9B18E386B5A241C16 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = CountdownLabel/LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		D50567D37E7D868AE4EE8D851EC2C71E /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
+		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7E80A79C02BE27A5399EA7AE77A0B21 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		D857A448A1F8F454EDA8097E8A12D4DD /* CountdownLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountdownLabel-prefix.pch"; sourceTree = "<group>"; };
+		DB5718B88C8748D0ADCF9A73AA380D97 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		E28E5E2EA8C9CA05F8543DEFF75F3E12 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		E5291D9C45F2F4D00AA27643B33B3933 /* CountdownLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CountdownLabel-umbrella.h"; path = "../../Headers/Public/CountdownLabel/CountdownLabel-umbrella.h"; sourceTree = "<group>"; };
+		E5D751CC4C395CF4E7F736A975F47A82 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = CountdownLabel/LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		E624A631B99224D9DEE04B16FB49A2B7 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA49B5CC1B6311F15B17603342E05283 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		EB4FBD25B1EA6A9A40C27ED12EED5560 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		ED6DA578B405E5EEF74C0E1F15CA388C /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		ED70CFADBD3BC03512714EF05DD29AFB /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		EE9852FEB9C1D1D9A5650203961EA02B /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
+		EF79F41D636E98086C4A6B685D274FE7 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		F19BA41FA5C59592859E6A57E994DD92 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		F3DA83B7FC90E1A302B4163F008B0682 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		F5A34823A76829D628E5B249CE913125 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		FC2D6C0EFB13BA9D41B9D814358818FD /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyButton-umbrella.h"; path = "../../Headers/Public/SwiftyButton/SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		FECCC594B2E2C72A671BC6410648D3A5 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "CountdownLabel/LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150E55AC9680D92C95F09ABA63F4071C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB85FE690789042EAE3B98CE06D1080 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EC6CF01EDA1DD8E58D3E9068BB052F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24F26C6791C25C00E8D8DDDFE1CEB80 /* CoreGraphics.framework in Frameworks */,
+				D8475364D9AE7BA112535A2C85C85CA6 /* QuartzCore.framework in Frameworks */,
+				F75B013AD1916A0130B0240ED02CDEF8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57114124AB5BE69B4FBFB963621A7613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9A4BB0BDE1F141A49AA1E20652166A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2756E9B23C50C9F142B2589100CAE66 /* Foundation.framework in Frameworks */,
+				540A944DDA3B34BCF3C3E10A71D89CC4 /* QuartzCore.framework in Frameworks */,
+				BB5159E2A9EC7B1920926CC691623BF5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F20EECAFE9A053697A51FCFB8F52540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190EC33340F889251B8052949428B2B8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C8B4AB97860F06FE722851EA867B18 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2433C24E08628645BE9C8BBFC18BD81B /* Pods-444QuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				3878BBAC7A0E5B5CCA53C11690C59277 /* Pods-444QuizApp.modulemap */,
+				93118D5388E64F2055A1A2F6ADEA67AF /* Pods-444QuizApp-acknowledgements.markdown */,
+				A855297E6529B3CAB1389B1E69180522 /* Pods-444QuizApp-acknowledgements.plist */,
+				A160AA941FD7484A605F54EA3B3483FB /* Pods-444QuizApp-dummy.m */,
+				5227031C747532A98682E6A3AE58D34A /* Pods-444QuizApp-frameworks.sh */,
+				C5442926B54E5F4F4EE00721A90BD0C5 /* Pods-444QuizApp-resources.sh */,
+				944E93C5A4DBF0166AC821F569E87428 /* Pods-444QuizApp-umbrella.h */,
+				27EE5ABEDD3474EF819BA296A705DF44 /* Pods-444QuizApp.debug.xcconfig */,
+				BBD116F4B44BB365F715DBF1C1DDCC30 /* Pods-444QuizApp.release.xcconfig */,
+			);
+			name = "Pods-444QuizApp";
+			path = "Target Support Files/Pods-444QuizApp";
+			sourceTree = "<group>";
+		};
+		3B156CE23535DF83006921ADE7EE71A7 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				53B7658A25E1E7787701489EC033DB75 /* Default */,
+				A08D5B7FCB70A38DDD2CDC6F2F3FA6B5 /* Support Files */,
+				56E59A2CD96A310F732F257253824312 /* Swift */,
+			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		3C3525A9246ABF6A7C5AB5F8D74873F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72ED0C1F179A75C6A5618C4B431072B3 /* Fire.png */,
+				BCA4BF1316523C00E205DAB756E55045 /* Fragment.png */,
+				868A3A5814C466E62014E6F88B709215 /* Smoke.png */,
+				806644311F9E9C51AD2FB6BB2EE0EB51 /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53B7658A25E1E7787701489EC033DB75 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				EF79F41D636E98086C4A6B685D274FE7 /* Chameleon.h */,
+				0669089321CB1C61ADE1227467DC42E0 /* Chameleon_.h */,
+				8AE83852C9297D37987DBED4F2D25D7E /* Chameleon_.m */,
+				38789261C014697C39D1A82E78B82C44 /* ChameleonConstants.h */,
+				EA49B5CC1B6311F15B17603342E05283 /* ChameleonConstants.m */,
+				613838968E9505B2F579632844EE645F /* ChameleonEnums.h */,
+				B0830FE064E7A83E2E452C148BD40D5F /* ChameleonMacros.h */,
+				112C8A28C13CC2F866416746E2F9D5F0 /* NSArray+Chameleon.h */,
+				6F4FAA391ECD73E180DB81037A2DCD6C /* NSArray+Chameleon.m */,
+				E624A631B99224D9DEE04B16FB49A2B7 /* UIAppearance+Swift.h */,
+				D7E80A79C02BE27A5399EA7AE77A0B21 /* UIAppearance+Swift.m */,
+				CE0C6FC1CB04BDE1E4463C411C214F07 /* UIButton+Chameleon.h */,
+				EB4FBD25B1EA6A9A40C27ED12EED5560 /* UIButton+Chameleon.m */,
+				594B07A00F6FFA9E04E3AAB790C353B9 /* UIColor+Chameleon.h */,
+				696DA04D6BD8BFDE84B974217BC5C008 /* UIColor+Chameleon.m */,
+				23304514945E6ED1291350E194F15782 /* UIColor+ChameleonPrivate.h */,
+				4FC4CA764A40B15625F44B784EE002CC /* UIColor+ChameleonPrivate.m */,
+				41DA9651FF16F46D9B96E6978F8024E2 /* UIImage+ChameleonPrivate.h */,
+				6855EE2E65A235CEDDA855ACA471352A /* UIImage+ChameleonPrivate.m */,
+				DB5718B88C8748D0ADCF9A73AA380D97 /* UILabel+Chameleon.h */,
+				2146DDCA38244342D03240182D7E845D /* UILabel+Chameleon.m */,
+				F5A34823A76829D628E5B249CE913125 /* UINavigationController+Chameleon.h */,
+				5F57BA2C103EC06EA4A8C1F839F8A30D /* UINavigationController+Chameleon.m */,
+				ED6DA578B405E5EEF74C0E1F15CA388C /* UIView+ChameleonPrivate.h */,
+				4AD1FF7E27FEFA2334A5038531B91AC3 /* UIView+ChameleonPrivate.m */,
+				125E5A854250E1DD715969996F6EFEC4 /* UIViewController+Chameleon.h */,
+				51D0AE4C21C0F6AEB724006B29F2DB30 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */,
+				D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */,
+				B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */,
+				E89163E94743FDDD60913C47150E225B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56E59A2CD96A310F732F257253824312 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C55EEEC656E688175176A54522E54074 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		580DCD925288C593352A8BA4D1D89C7F /* CountdownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BC358219E0258D377AF3656AD23D0501 /* CountdownLabel.swift */,
+				CF049DE78117B7F9B18E386B5A241C16 /* LTCharacterDiffResult.swift */,
+				B63A8C3CCD749054D8F3EEAEF84F4971 /* LTCharacterLimbo.swift */,
+				766618740B4B3F0046C5EFD41A8F0275 /* LTEasing.swift */,
+				E5D751CC4C395CF4E7F736A975F47A82 /* LTEmitterView.swift */,
+				05676A20A8B3A3C92963DA23C3169E02 /* LTMorphingEffect.swift */,
+				15D211D0F658DA06B0D9873C4CAAD403 /* LTMorphingLabel.swift */,
+				B09B314BE7820681782056CB0D7387E0 /* LTMorphingLabel+Anvil.swift */,
+				F19BA41FA5C59592859E6A57E994DD92 /* LTMorphingLabel+Burn.swift */,
+				8856ACA904C6BA22D27C2A4F3E5F38AA /* LTMorphingLabel+Evaporate.swift */,
+				FECCC594B2E2C72A671BC6410648D3A5 /* LTMorphingLabel+Fall.swift */,
+				1E01FD7442871D6173F618AA1B902E92 /* LTMorphingLabel+Pixelate.swift */,
+				AA9FF156FD5BFB5856887D070F7B76CC /* LTMorphingLabel+Sparkle.swift */,
+				1F88451A9375E60F1559E7E5E51292E9 /* LTStringDiffResult.swift */,
+				A69F0D577A35990A3B731EE2990BF841 /* Support Files */,
+			);
+			name = CountdownLabel;
+			path = CountdownLabel;
+			sourceTree = "<group>";
+		};
+		5A8711A1E2BD52C3FD82F6FE4C34C4C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B156CE23535DF83006921ADE7EE71A7 /* ChameleonFramework */,
+				580DCD925288C593352A8BA4D1D89C7F /* CountdownLabel */,
+				8AFF04B978CEB7C6B429B7EC65480605 /* LTMorphingLabel */,
+				968D8BE46310995A0826D1F53778C787 /* SwiftyButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DBF3FC5A1FED09E636B3D25C9EF5AE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A053FB76502927AA2704B44B8CF3000B /* LTMorphingLabel.modulemap */,
+				AF1F7D787CDAF7B25398FB1AB27541B6 /* LTMorphingLabel.xcconfig */,
+				92A23903ACBD66B68FA1154DFA52F08D /* LTMorphingLabel-dummy.m */,
+				BDFA995F44647B02C1FAFE12B1A8B873 /* LTMorphingLabel-prefix.pch */,
+				6ABD9573231BE7FA7EE211FEA0A73D66 /* LTMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		71A913C5BFDA0137E19E0327AE1810E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186D723FD5060930AF93D17D9311EA7E /* libChameleonFramework.a */,
+				477E5E21F80087F299E341A7D3B1F007 /* libCountdownLabel.a */,
+				33911BF365D3BE056EF2A94C90431527 /* libLTMorphingLabel.a */,
+				47AE840C9AF2D0B824E7688F2718277E /* libPods-444QuizApp.a */,
+				BCC94BB346094C8FCFEAC82134F675B2 /* libSwiftyButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C3A62430C9CD5342FB16F1F9F27C66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2433C24E08628645BE9C8BBFC18BD81B /* Pods-444QuizApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				5A8711A1E2BD52C3FD82F6FE4C34C4C5 /* Pods */,
+				71A913C5BFDA0137E19E0327AE1810E9 /* Products */,
+				71C3A62430C9CD5342FB16F1F9F27C66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFF04B978CEB7C6B429B7EC65480605 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C011CC930F8A25EF2674AADB9E48EF11 /* LTCharacterDiffResult.swift */,
+				61896903D2EF8028B2DF6557567419D1 /* LTCharacterLimbo.swift */,
+				113F42C9BD8AC5D9C85F71CBE7D4ADF3 /* LTEasing.swift */,
+				613B603320FF8C4F3FFADFDF8868932E /* LTEmitterView.swift */,
+				778F803A3F714D505120112503EF528F /* LTMorphingEffect.swift */,
+				A2C5A40F36340941ED8AFF3010850102 /* LTMorphingLabel.h */,
+				70696EFB5647C1190B3B0F824BD8B136 /* LTMorphingLabel.swift */,
+				ED70CFADBD3BC03512714EF05DD29AFB /* LTMorphingLabel+Anvil.swift */,
+				3C9F04F37B7EE1181E1B652220C6E237 /* LTMorphingLabel+Burn.swift */,
+				F3DA83B7FC90E1A302B4163F008B0682 /* LTMorphingLabel+Evaporate.swift */,
+				3688E7DC3DCE6A9B26F2EBC3A15F97B5 /* LTMorphingLabel+Fall.swift */,
+				782BBCBC23C3C2AA19B1B0623CEBC47E /* LTMorphingLabel+Pixelate.swift */,
+				5100BC5E1EA0B482BA8DA84F9BA8CD23 /* LTMorphingLabel+Sparkle.swift */,
+				EE9852FEB9C1D1D9A5650203961EA02B /* LTStringDiffResult.swift */,
+				3C3525A9246ABF6A7C5AB5F8D74873F1 /* Resources */,
+				6DBF3FC5A1FED09E636B3D25C9EF5AE9 /* Support Files */,
+			);
+			name = LTMorphingLabel;
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		968D8BE46310995A0826D1F53778C787 /* SwiftyButton */ = {
+			isa = PBXGroup;
+			children = (
+				D50567D37E7D868AE4EE8D851EC2C71E /* CustomPressableButton.swift */,
+				6A224C759FAEE93D19CE80BDD50251F0 /* FlatButton.swift */,
+				C5CB048ED8FF7B49E33188FAF1C751F0 /* PressableButton.swift */,
+				AF74F60573DD9D3F7C3D868F7D29B016 /* Utils.swift */,
+				D1A622B147CB1B5FEC195A8D3EDD4E5F /* Support Files */,
+			);
+			name = SwiftyButton;
+			path = SwiftyButton;
+			sourceTree = "<group>";
+		};
+		A08D5B7FCB70A38DDD2CDC6F2F3FA6B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC500FD1984AB2177EF6C00362614AA8 /* ChameleonFramework.modulemap */,
+				401AE7FAF1CF90D6646218BB5828DA5D /* ChameleonFramework.xcconfig */,
+				E28E5E2EA8C9CA05F8543DEFF75F3E12 /* ChameleonFramework-dummy.m */,
+				51CAC4BDEBE31B37D1A7388CDBAEC753 /* ChameleonFramework-prefix.pch */,
+				6A0F6B5CB8BA5A87D9B17F3B1341055D /* ChameleonFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		A69F0D577A35990A3B731EE2990BF841 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CF6D0AA03409658C85D2C3D206BCF5 /* CountdownLabel.modulemap */,
+				B5F47ECBDF7A4B26196B8A2F512EBF52 /* CountdownLabel.xcconfig */,
+				3E913EFB795F28E55477715455F60E46 /* CountdownLabel-dummy.m */,
+				D857A448A1F8F454EDA8097E8A12D4DD /* CountdownLabel-prefix.pch */,
+				E5291D9C45F2F4D00AA27643B33B3933 /* CountdownLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountdownLabel";
+			sourceTree = "<group>";
+		};
+		D1A622B147CB1B5FEC195A8D3EDD4E5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09522D5586FE00508C1C8AC9764B8BFA /* SwiftyButton.modulemap */,
+				5E72C5451B70F6A6059E13A3241E7612 /* SwiftyButton.xcconfig */,
+				BCFE2DDC6E398DE711E2346E5A49141B /* SwiftyButton-dummy.m */,
+				6F8BACDC2AD2ED369362F2B562BB7EAE /* SwiftyButton-prefix.pch */,
+				FC2D6C0EFB13BA9D41B9D814358818FD /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37106E1984271D308AB4B374503E5E8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B065C000CB509B4DF9BF10F2364EBD14 /* Chameleon.h in Headers */,
+				B0F6EC26EE573D408649C71970C2176A /* Chameleon_.h in Headers */,
+				C9FE745F43C9FC1B82E7EED5B9C25F42 /* ChameleonConstants.h in Headers */,
+				E0291936EDE349319F35FCEF5926C5DA /* ChameleonEnums.h in Headers */,
+				97704376384B2D5AD3BF82B090AD919F /* ChameleonFramework-umbrella.h in Headers */,
+				0B57B90174A692C5D36299A9D15DE8CE /* ChameleonMacros.h in Headers */,
+				6D658ABFEE4DF7361AA74193A4CFE28A /* NSArray+Chameleon.h in Headers */,
+				2E802CF09078B4E1458C378E6B1846DF /* UIAppearance+Swift.h in Headers */,
+				3A4F13BD6A209FAE9BD5C8F0FB51679F /* UIButton+Chameleon.h in Headers */,
+				A395A2AB1C79FC0930AA3142F16B71E7 /* UIColor+Chameleon.h in Headers */,
+				DFA232B14D138E6E7ABBA42CD242A087 /* UIColor+ChameleonPrivate.h in Headers */,
+				F34CE4EED89542A7A1F407FF1D4A01B7 /* UIImage+ChameleonPrivate.h in Headers */,
+				58DAE9112B3F3F628E7DEECE5FE3FCE8 /* UILabel+Chameleon.h in Headers */,
+				4F8E079AD3F9C7E6593C41C84689902B /* UINavigationController+Chameleon.h in Headers */,
+				8C0A80C27639905B853DD7D432448353 /* UIView+ChameleonPrivate.h in Headers */,
+				ACA340FF0A0261841E33BA6AA247D4F7 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F130306D4B723992EED1B1C5B04677C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186BCD16318434E8549A78B8952B0F7 /* Pods-444QuizApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A70D6982F5DD842F5EBD3381F56094 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B631B12D53852D408D89C04CFFFEDF /* LTMorphingLabel-umbrella.h in Headers */,
+				21424A939979432F763C8DA206F0C016 /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE2F07152A6AC2ED567E53CF1DF0D61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6927CBE6897F68AB02AE5F748029C3 /* CountdownLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6228D7D1EBD6C4D08DACEBA10CCF2E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBCF214FC42B7B6535B3FA4CC1A7406 /* SwiftyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F5373C47765EFF70624332AEE2D9CFF /* SwiftyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04C945B91EC6BE185DDD2AD8A65D0B2 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildPhases = (
+				527F5531EAC799718EB5973FEDF558FB /* Sources */,
+				6F20EECAFE9A053697A51FCFB8F52540 /* Frameworks */,
+				F6228D7D1EBD6C4D08DACEBA10CCF2E1 /* Headers */,
+				062E1D175E95BB97F5BE2DBD2A09E2EA /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = BCC94BB346094C8FCFEAC82134F675B2 /* libSwiftyButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		898FD729E5669398CEA99CB5B1913366 /* CountdownLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDC54E12875B473505E22E177A4C2CB /* Build configuration list for PBXNativeTarget "CountdownLabel" */;
+			buildPhases = (
+				5D166AB931BB06581217342FD6DE2F4F /* Sources */,
+				150E55AC9680D92C95F09ABA63F4071C /* Frameworks */,
+				DBE2F07152A6AC2ED567E53CF1DF0D61 /* Headers */,
+				E426E44D8A685D9A34FD07B309583667 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownLabel;
+			productName = CountdownLabel;
+			productReference = 477E5E21F80087F299E341A7D3B1F007 /* libCountdownLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4B2EA148B735078CEF1327B3FC0864E /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E0C512FAE5EEAF9179FFED02B029FE /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				6247785127DC165DC7A0A85163F27098 /* Sources */,
+				49EC6CF01EDA1DD8E58D3E9068BB052F /* Frameworks */,
+				37106E1984271D308AB4B374503E5E8A /* Headers */,
+				C83FA0ABF7E581615E6D284D717351D4 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = 186D723FD5060930AF93D17D9311EA7E /* libChameleonFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA95086373F42E795CF87FC2153DFE71 /* Pods-444QuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB67A2C771F9E5A3F8BE93008A8657AD /* Build configuration list for PBXNativeTarget "Pods-444QuizApp" */;
+			buildPhases = (
+				2C429B539B22EC8496F60680C0202708 /* Sources */,
+				57114124AB5BE69B4FBFB963621A7613 /* Frameworks */,
+				5F130306D4B723992EED1B1C5B04677C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A0CD3E4ACEE4136861641427DD872E /* PBXTargetDependency */,
+				B295FD6F4D963AE4985B22072FBB4439 /* PBXTargetDependency */,
+				C453E82A5D46D8062B4944ADFFBA5935 /* PBXTargetDependency */,
+				A02843A07747519578991C668BAFAF7A /* PBXTargetDependency */,
+			);
+			name = "Pods-444QuizApp";
+			productName = "Pods-444QuizApp";
+			productReference = 47AE840C9AF2D0B824E7688F2718277E /* libPods-444QuizApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF432B1F77503A4DF32F4F359D03B60A /* LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87641DB70B4373B590AA50ED4989FD5 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
+			buildPhases = (
+				2A666E8F01590696A11AA55E4C89F7C6 /* Sources */,
+				5F9A4BB0BDE1F141A49AA1E20652166A /* Frameworks */,
+				C8A70D6982F5DD842F5EBD3381F56094 /* Headers */,
+				2718BE954D8D949ACD4A61BA25C4676E /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = 33911BF365D3BE056EF2A94C90431527 /* libLTMorphingLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 71A913C5BFDA0137E19E0327AE1810E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B2EA148B735078CEF1327B3FC0864E /* ChameleonFramework */,
+				898FD729E5669398CEA99CB5B1913366 /* CountdownLabel */,
+				FF432B1F77503A4DF32F4F359D03B60A /* LTMorphingLabel */,
+				FA95086373F42E795CF87FC2153DFE71 /* Pods-444QuizApp */,
+				1F5373C47765EFF70624332AEE2D9CFF /* SwiftyButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062E1D175E95BB97F5BE2DBD2A09E2EA /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyButton/SwiftyButton.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyButton/SwiftyButton-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyButton-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyButton/SwiftyButton.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyButton/SwiftyButton-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		2718BE954D8D949ACD4A61BA25C4676E /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/LTMorphingLabel/LTMorphingLabel.modulemap",
+				"${PODS_ROOT}/Headers/Public/LTMorphingLabel/LTMorphingLabel-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LTMorphingLabel/LTMorphingLabel.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LTMorphingLabel/LTMorphingLabel-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		C83FA0ABF7E581615E6D284D717351D4 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ChameleonFramework/ChameleonFramework.modulemap",
+				"${PODS_ROOT}/Headers/Public/ChameleonFramework/ChameleonFramework-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ChameleonFramework/ChameleonFramework.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ChameleonFramework/ChameleonFramework-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		E426E44D8A685D9A34FD07B309583667 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CountdownLabel/CountdownLabel.modulemap",
+				"${PODS_ROOT}/Headers/Public/CountdownLabel/CountdownLabel-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CountdownLabel-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CountdownLabel/CountdownLabel.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CountdownLabel/CountdownLabel-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A666E8F01590696A11AA55E4C89F7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90FED733F6332B210782FEE6EDEE92 /* LTCharacterDiffResult.swift in Sources */,
+				873F0BF3FB3FE8FB46766383478345B9 /* LTCharacterLimbo.swift in Sources */,
+				A024C5AC6C4111750167979828AA1C6B /* LTEasing.swift in Sources */,
+				78323D3F3AA1ACDEE39B0D024DD2BEED /* LTEmitterView.swift in Sources */,
+				C0660EC46E1DD02883C278C45DA81976 /* LTMorphingEffect.swift in Sources */,
+				78E362B24A93B45ECCFC8989BC723631 /* LTMorphingLabel+Anvil.swift in Sources */,
+				B8D46C21133B1B962365C3AB3D1DC093 /* LTMorphingLabel+Burn.swift in Sources */,
+				4DC28C2183C08F4CA3C2B2C6402C5F48 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				E37E320372E17A336805F8F331219C6C /* LTMorphingLabel+Fall.swift in Sources */,
+				E52FDC133C8FB6EE1CF0490C306B7820 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				CF6BA492AA018BA38F319CFE0849D387 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				8BBBD65B2E0B3B41AFBC938214A8FD06 /* LTMorphingLabel-dummy.m in Sources */,
+				F85E1566E16D7590AB50477AAA9E58A9 /* LTMorphingLabel.swift in Sources */,
+				A4C2753C6C82EB8C41D957E158C60EF2 /* LTStringDiffResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C429B539B22EC8496F60680C0202708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D3B69E8C1CA0F8A1F44585BC40AB4D /* Pods-444QuizApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527F5531EAC799718EB5973FEDF558FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A62080902E4C4F27C2C54E5B9D3C544 /* CustomPressableButton.swift in Sources */,
+				F264AFD04EED135B368E3967A730A59B /* FlatButton.swift in Sources */,
+				CC8A86E5F5EB8456C9C016A4F2AD1078 /* PressableButton.swift in Sources */,
+				2AB15077FBC851EC1DF7AC6E9824A3A9 /* SwiftyButton-dummy.m in Sources */,
+				013C2874FE5C243DB2A8A06FBCD57137 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D166AB931BB06581217342FD6DE2F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53FBA7091C0815C67C52490429794FE /* CountdownLabel-dummy.m in Sources */,
+				EF0673D064951F38DCB64B1660742152 /* CountdownLabel.swift in Sources */,
+				0E7E3D8FC7B96142F6E5A3CCA3BD024F /* LTCharacterDiffResult.swift in Sources */,
+				1159AA04CDEEFA361CB0CDB7F9404B40 /* LTCharacterLimbo.swift in Sources */,
+				19ECA9ED1F833936A80C0FA4E4A9650B /* LTEasing.swift in Sources */,
+				9250EDECCEDFCB5C4E873DE41B180FE2 /* LTEmitterView.swift in Sources */,
+				9C3E08039829B1E8886510854C2A7A17 /* LTMorphingEffect.swift in Sources */,
+				F05A41F3D0E6EA8BC6DEAF04B67E058D /* LTMorphingLabel+Anvil.swift in Sources */,
+				5A2B74050223F32601497DF58B590F3C /* LTMorphingLabel+Burn.swift in Sources */,
+				6719186B23B3B44DF54168129D101C8A /* LTMorphingLabel+Evaporate.swift in Sources */,
+				700287663CEC5B2F9A69E774A28AABCF /* LTMorphingLabel+Fall.swift in Sources */,
+				18D747FE852899282E9C1A845C1B8E46 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				C641EBC641928D479B0C27FF87CC6AED /* LTMorphingLabel+Sparkle.swift in Sources */,
+				49F9849EC36E1232AF35AAD38E269350 /* LTMorphingLabel.swift in Sources */,
+				C1FFED4CEA005693AFF3A9453A572C29 /* LTStringDiffResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6247785127DC165DC7A0A85163F27098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA85E6F30CAE7BB8F79FB59DBD2F8BB /* Chameleon_.m in Sources */,
+				B1334F3064AF8D401E4EFBC69208BB00 /* ChameleonConstants.m in Sources */,
+				58DD028495EC05E3DF961439A186F2EB /* ChameleonFramework-dummy.m in Sources */,
+				6C834F0D06EE4D19B04C07F9A991F4F9 /* ChameleonShorthand.swift in Sources */,
+				9DEE0DFF4960636CC9051AF06DCE5D9D /* NSArray+Chameleon.m in Sources */,
+				64048DF6C09B751FEBAFA704F20E6B57 /* UIAppearance+Swift.m in Sources */,
+				041EF79EC44290783D1939D8F814E333 /* UIButton+Chameleon.m in Sources */,
+				58AF999211466179E93727B4D7638AB7 /* UIColor+Chameleon.m in Sources */,
+				AFDA93B6876D67A80360AD5EAA68AE22 /* UIColor+ChameleonPrivate.m in Sources */,
+				6D1CFE294484FF1674DE5DEA0D758383 /* UIImage+ChameleonPrivate.m in Sources */,
+				07AC00AF40D6B1F2C64285B8F342FFDD /* UILabel+Chameleon.m in Sources */,
+				F5B91238B4FF33883E1D14B8C049A807 /* UINavigationController+Chameleon.m in Sources */,
+				0A56B2EF84F7497C3076077CB099C8A0 /* UIView+ChameleonPrivate.m in Sources */,
+				10BC6BB19B0D5A1C01164C15C55C88AB /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A0CD3E4ACEE4136861641427DD872E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = E4B2EA148B735078CEF1327B3FC0864E /* ChameleonFramework */;
+			targetProxy = 401477DBB02DA47F243802EFDC78D33E /* PBXContainerItemProxy */;
+		};
+		A02843A07747519578991C668BAFAF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyButton;
+			target = 1F5373C47765EFF70624332AEE2D9CFF /* SwiftyButton */;
+			targetProxy = 16FC95DEF836FC54C64BB359BB157C28 /* PBXContainerItemProxy */;
+		};
+		B295FD6F4D963AE4985B22072FBB4439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountdownLabel;
+			target = 898FD729E5669398CEA99CB5B1913366 /* CountdownLabel */;
+			targetProxy = FA9BCA9A5EB9D89F440D476D79A40223 /* PBXContainerItemProxy */;
+		};
+		C453E82A5D46D8062B4944ADFFBA5935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = FF432B1F77503A4DF32F4F359D03B60A /* LTMorphingLabel */;
+			targetProxy = 23D0AF2136D6C940518E462B8A700480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F2F1D0BA9CF01A5ACA9F309C3777A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E72C5451B70F6A6059E13A3241E7612 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyButton/SwiftyButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		355C034169F99FBCA128944D80E36AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1F7D787CDAF7B25398FB1AB27541B6 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/LTMorphingLabel/LTMorphingLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LTMorphingLabel;
+				PRODUCT_NAME = LTMorphingLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		611A7F45BCF08DE62738719D74AFF8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401AE7FAF1CF90D6646218BB5828DA5D /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ChameleonFramework/ChameleonFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C35B797F979DA4E452C5503A82758D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD116F4B44BB365F715DBF1C1DDCC30 /* Pods-444QuizApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-444QuizApp/Pods-444QuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78B67BC96A96A41AD36DDE2F977BC247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27EE5ABEDD3474EF819BA296A705DF44 /* Pods-444QuizApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-444QuizApp/Pods-444QuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A511A507B39B5FE32A3DD50C79E1784D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F47ECBDF7A4B26196B8A2F512EBF52 /* CountdownLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CountdownLabel/CountdownLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MODULEMAP_FILE = Headers/Public/CountdownLabel/CountdownLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CountdownLabel;
+				PRODUCT_NAME = CountdownLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B383D58F839045E398D13D739F107149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1F7D787CDAF7B25398FB1AB27541B6 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/LTMorphingLabel/LTMorphingLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LTMorphingLabel;
+				PRODUCT_NAME = LTMorphingLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE53A7DD6D6D6ED6EDB8AE949DBDF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F47ECBDF7A4B26196B8A2F512EBF52 /* CountdownLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CountdownLabel/CountdownLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MODULEMAP_FILE = Headers/Public/CountdownLabel/CountdownLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CountdownLabel;
+				PRODUCT_NAME = CountdownLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31BBAE8B11A971F6166744C89B2318D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E72C5451B70F6A6059E13A3241E7612 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyButton/SwiftyButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB502D437E9E9E050F6B3AFEEFAE6395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401AE7FAF1CF90D6646218BB5828DA5D /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ChameleonFramework/ChameleonFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E0C512FAE5EEAF9179FFED02B029FE /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB502D437E9E9E050F6B3AFEEFAE6395 /* Debug */,
+				611A7F45BCF08DE62738719D74AFF8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB67A2C771F9E5A3F8BE93008A8657AD /* Build configuration list for PBXNativeTarget "Pods-444QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B67BC96A96A41AD36DDE2F977BC247 /* Debug */,
+				64C35B797F979DA4E452C5503A82758D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87641DB70B4373B590AA50ED4989FD5 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355C034169F99FBCA128944D80E36AC6 /* Debug */,
+				B383D58F839045E398D13D739F107149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDC54E12875B473505E22E177A4C2CB /* Build configuration list for PBXNativeTarget "CountdownLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A511A507B39B5FE32A3DD50C79E1784D /* Debug */,
+				DCE53A7DD6D6D6ED6EDB8AE949DBDF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04C945B91EC6BE185DDD2AD8A65D0B2 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F1D0BA9CF01A5ACA9F309C3777A31 /* Debug */,
+				F31BBAE8B11A971F6166744C89B2318D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
